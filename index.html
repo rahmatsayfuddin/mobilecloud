@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 <head>
 	<title></title>
@@ -14,9 +15,15 @@ body{
 	left: 22%;
 	right: 22%;
 }
+#center{
+	width: 40%;
+}
+#side{
+	margin-top: 50px; 
+	width: 28%;
+}
 .link{
 	float: left;
-	width: 33.333%
 }
 .img-link{
 	width: 100%;
@@ -24,21 +31,58 @@ body{
 .mybutton{
 	margin: auto;
 	width: 65%;
-	padding: 50px 10px 10px 10px;
+	padding: 0 10px 10px 10px;
 	float: right;
+}
+@media (max-width: 575px) { 
+	.content{
+		position: absolute;
+		top: 8%;
+	}
+	#center{
+		margin-top: 15px;
+	}
+
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+	.content{
+		position: absolute;
+		top: 10%;
+	}
+	#center{
+		margin-top: 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+	.content{
+		position: absolute;
+		top: 25%;
+	}
+	#center{
+		margin-top: 15px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.content{
+		position: absolute;
+		top: 25%;
+	}
+	#center{
+		margin-top: 15px;
+	}
 }
 </style>
 <body>
 	<div class="background">
-		<img src="landing_page_bg.jpg" style="width: 100%">
+		<img src="landingpage_bg.jpg" style="width: 100%">
 		<div class="content">
-			<div class="link">
+			<div class="link" id="side">
 				<a href="https://play.google.com/store/apps/details?id=com.telkom.telkomchats" target="_blank"><img src="ic_telkomchat.png" class="img-link"></a>
 			</div>
-			<div class="link">
+			<div class="link" id="center">
 				<a href="https://play.google.com/store/apps/details?id=com.telkomsigma.telkomstorage" target="_blank"><img src="ic_telkomstorage.png" class="img-link"></a>
 			</div>
-			<div class="link">
+			<div class="link" id="side">
 				<a href="https://play.google.com/store/apps/details?id=com.telkomsigma.telkommail" target="_blank"><img src="ic_telkommail.png" class="img-link"></a>
 			</div>
 			<a href="" class="mybutton">
