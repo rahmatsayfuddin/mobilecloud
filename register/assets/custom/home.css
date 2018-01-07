@@ -1,0 +1,247 @@
+@font-face{
+	font-family: POPPINS-SEMIBOLD;
+	src: url(("../../assets/font/POPPINS-SEMIBOLD.TTF");
+}
+@font-face{
+	font-family: POPPINS-LIGHT;
+	src: url(("../../assets/font/POPPINS-LIGHT.TTF");
+}
+@font-face{
+	font-family: POPPINS-BLACK;
+	src: url(("../../assets/font/POPPINS-BLACK.TTF");
+}
+@font-face{
+	font-family: POPPINS-REGULAR;
+	src: url(("../../assets/font/POPPINS-REGULAR.TTF");
+}
+.padding-navbar{
+	padding-right: 1.5rem !important;
+	padding-left: 1.5rem !important;
+}
+.active a{
+	color: #DA4B38 !important;
+	font-weight: bold;
+}
+.nav-link{
+	color: #7C7A7B !important;
+	font-weight: bold;
+}
+a.nav-link:hover{
+	color: #DA4B38 !important;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	bottom: 30% !important;
+	color: #DA4B38 !important;
+}
+.chevron-nav {
+	font-size: 40px;
+	color: white;
+	bottom: 20%;
+}
+.logo-carausel{
+	width: 10% !important;
+}
+.deskripsi {
+	height: 100%;
+	background: url("../../assets/image/home/bg_deskripsi.png");
+	width: 100%;
+	margin-top: -10%;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.logo-desk{
+	display: block;
+	margin-top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.text-desk{
+	font-size: 2rem;
+	margin-top: 15%;
+	font-family: POPPINS-LIGHT;
+	color: #fff;
+}
+.button-desk a{
+	font-size: 2rem;
+	font-family: POPPINS-LIGHT;
+	color: #fff;
+}
+.btn-desk-bisnis{
+	background: #504B69 !important;
+}
+.btn-desk-bisnis:hover{
+	color:  #fff;
+	text-decoration: none;
+	background: #251F41 !important;
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+	.button-desk a{
+		font-size: 1.5rem;
+		font-family: POPPINS-LIGHT;
+		color: #fff;
+	}
+	.text-desk{
+		font-size: 1.5rem;
+		margin-top: 13%;
+	}
+
+	.nav-flat  { 
+		float: right;
+
+	}
+	.nav-flat li { 
+		display: inline-block; 
+
+	}
+	.nav-flat li a { 
+		display: inline-block; 
+	}
+	.dropdown-menu li { display: block; }
+	.dropdown-menu li a { display: block; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+	.button-desk a{
+		font-size: 1rem;
+		font-family: POPPINS-LIGHT;
+		color: #fff;
+	}
+	.text-desk{
+		font-size: 1rem;
+		margin-top: 13%;
+	}
+	.button-desk{
+		margin-top: -3%;
+		margin-bottom: 2%;
+	}
+	.carousel-caption {
+		bottom: 15% !important;
+	}
+
+	.text-alamat{
+		font-size: 1rem !important;
+	}
+	.text-email{
+
+		font-size: 1rem !important;
+		margin-top: 10px;
+	}
+	.text-call{
+
+		font-size: 1rem !important;
+		margin-top: 10px;
+	}
+	.nav-flat  { 
+		float: right;
+
+	}
+	.nav-flat li { 
+		display: inline-block; 
+
+	}
+	.nav-flat li a { 
+		display: inline-block; 
+	}
+	.dropdown-menu li { display: block; }
+	.dropdown-menu li a { display: block; }
+
+}
+
+.product-name{
+	display: block;
+	color: #DA4B38 !important;
+	text-align: center;
+	font-size: 1.8rem;
+}
+.icon-keuntungan{
+	display: block;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+.keuntungan{
+	background-color: #EDE9E8;
+	background: url("../../assets/image/home/bg_telkommail_keuntungan.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	margin-left: 0;
+	margin-right: 0;
+}
+.text-keuntungan{
+	color: #D01800 !important;
+	/*margin-left: -20%;*/
+	font-size: 14px;
+	font-weight: 700;
+	/*margin-top:15%*/
+}
+.why {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.why img{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.why p{
+	font-family: POPPINS-SEMIBOLD;
+	font-weight: bold;
+	color: #DF2800;
+}
+.text-merah {
+
+}
+.icon-footer{
+	width: 100%;
+	margin-bottom:40%;
+}
+.footer{
+	padding-top: 2%;
+	background: #EDE9E8;
+	margin-top: 2%;
+}
+
+.text-alamat{
+
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5rem;
+}
+.text-email{
+
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+.text-call{
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+.navbar-home{
+	margin-right: 0;
+	margin-bottom: 0; 
+}
+/*.btn-daftar{
+	padding-top: 10px !important;
+	}*/
+
+	.btn-daftar>a:focus, .btn-daftar>a:hover {
+		text-decoration: none; 
+		background-color: #d9534f !important; 
+	}

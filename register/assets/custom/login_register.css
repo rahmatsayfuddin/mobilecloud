@@ -1,0 +1,24 @@
+body{
+	background: url("../../assets/image/home/bg.png") no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.logo-center{
+	display: block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+.login-box{
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1EFF2;
+	border:solid 0.5px #D01800;
+	margin-bottom: 2%;
+}

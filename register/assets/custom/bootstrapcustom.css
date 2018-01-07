@@ -1,0 +1,10 @@
+.btn-danger {
+	color: #fff !important;
+	background-color:#D01800;
+	border-color: #D01800;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+	color: #fff !important;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
