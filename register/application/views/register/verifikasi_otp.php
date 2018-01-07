@@ -12,7 +12,7 @@
 	
 </head>
 <body>
-	<img src="<?php echo base_url()?>/assets/image/home/logo_login.png"  class="logo-center">
+	<img src="<?php echo base_url()?>/assets/image/home/logo_mobile_cloud.png"  class="logo-center">
 	<div class="container">
 		<div class="col-sm-6 login-box">
 			<div class="row">
