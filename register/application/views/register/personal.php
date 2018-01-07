@@ -153,7 +153,7 @@
 								<div class="form-check form-check-inline">
 									<label class="form-check-label">
 										<input type="checkbox" required class="form-check-input" value="">
-										I agree to the <a href="<?php echo base_url()?>assets/file/policy.docx">Term Of use</a> and <a href="<?php echo base_url()?>assets/file/rivacy.docx">Privacy and Policy</a>
+										I agree to the <a href="<?php echo base_url()?>assets/file/term_and_conditions.docx">Term and Conditions</a>
 									</label>
 
 								</div>	
