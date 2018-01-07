@@ -33,14 +33,17 @@ class Register extends CI_Controller {
 		$data['result']=$result;
 		if($result['status']=='200'){
 			$this->M_register->register_storage($_POST['email'],$_POST['password']);
+			redirect('success');
 		}
-		$this->load->view('register/success',$data);
+		else{
+			$this->load->view('register/success',$data);
+		}
 	}
 	public function pricing()
 	{
 		$this->load->view('register/pricing');
 	}
-	public function personal()
+	public function index()
 	{
 		$this->load->view('register/personal');
 	}
